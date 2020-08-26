@@ -1,0 +1,397 @@
+body, html {
+    height: 100%;
+    background-color: #343a40 ;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+.nav {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+}
+
+.nav div.logo {
+    float: left;
+    width: auto;
+    height: auto;
+    min-width: 50px;
+}
+
+
+.nav div.main_list {
+    height: 65px;
+    float: right;
+    position: absolute;
+    left: 70%;
+}
+
+.nav div.main_list ul {
+    width: 100%;
+    height: 65px;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav div.main_list ul li {
+    width: auto;
+    height: 65px;
+    padding: 0;
+    padding-right: 3rem;
+    font-family: Helvetica Neue LT Pro;
+    font-style: 83 Heavy Extended;
+}
+
+.nav div.main_list ul li a {
+    text-decoration: none;
+    color: #fff;
+    line-height: 65px;
+    font-size: 1.2rem;
+}
+
+.nav div.main_list ul li a:hover {
+    color: #00E676;
+}
+.nav div.container{
+    width: 100%;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+
+
+
+
+#logo{
+    width: 10%;
+}
+
+
+/* Wallpaper */
+#wallpaper { 
+    /* The image used */
+    background-image: url("../pics/HomeBG.jpg");
+    height: 130%;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Title */
+#wallpaper #title{
+    padding-top: 7%;
+    text-align: center;
+}
+
+#title .name{
+    font-family: Cambria;
+    font-style: italic;
+    font-size: 600%;
+    color: white;
+    margin-top: 1%;
+}
+
+#title .desc{
+    font-family: Cambria;
+    font-size: 110%;
+    color: white;
+}
+#title .logo{
+    width: 8%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:1%;
+    min-width: 100px;
+}
+
+
+#buttons ul{
+    position: absolute;
+    text-align: center;
+    top: 95%;
+    width: 100%;
+    right: 4%;
+}
+#buttons ul li{
+    display: inline;
+    font-family: Georgia;
+    font-style: bold;
+    font-size: 200%;
+    margin: 0 5% 0 5%;
+}
+
+#buttons ul li a{
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+#icon ul{
+    position: absolute;
+    text-align: center;
+    top: 105%;
+    width: 100%;
+    right: 2%;
+}
+#icon ul li{
+    display: inline;
+    font-family: Georgia;
+    font-style: bold;
+    font-size: 200%;
+    margin: 0 2% 0 2%;
+}
+
+#icon ul li a{
+    color: white;
+}
+
+
+
+/* About Me */
+#aboutme { 
+    /* The image used */
+    background-image: url("../pics/About Me BG.jpg");
+    height: 140%;
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#aboutme .contents { 
+    width: 100%;
+    display: inline-flex;
+}
+
+#amtitle { 
+    font-family: Helvetica Neue LT Pro;
+    font-style: 83 Heavy Extended;
+    font-size: 350%;
+    padding: 10% 0 3% 5%;
+}
+
+#aboutme .contents .text{ 
+    width: 50%;
+    margin: 0 5% 0 5%;
+    font-family: Georgia;
+    font-style: bold;
+    font-size: 200%;
+    text-shadow: 2px 2px black;
+}
+
+#aboutme .contents .img{ 
+    width: 30%;
+    margin: 0 5% 0 3%;
+}
+#aboutme #button{ 
+    margin: 0 5% 0 5%;
+    background-color: transparent;
+    border-style: none;
+    width: 20%;
+}
+
+
+/* Gallery Carousel */
+.carousel-item {
+    height: 120vh;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+.carousel-item .carousel-caption{
+    position: absolute;
+    text-align: center;
+    bottom: 35%;
+}
+
+.carousel-item .carousel-caption h2{
+    font-family: Times New Roman;
+    font-style: italic;
+    font-size: 700%;
+    text-shadow: 3px 2px black;
+}
+
+#gallery #button{ 
+    margin: 4% 5% 0 5%;
+    background-color: transparent;
+    border-style: none;
+    width: 35%;
+}
+
+
+@media screen and (max-width: 800px) {
+    .carousel-item {
+        height: 100vh;
+        min-height: 350px;
+        background: no-repeat center center scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }
+    .carousel-item .carousel-caption h2{
+        font-family: Times New Roman;
+        font-style: italic;
+        font-size: 500%;
+        text-shadow: 3px 2px black;
+    }
+}
+@media screen and (max-width: 500px) {
+    .carousel-item .carousel-caption{
+        position: absolute;
+        text-align: center;
+        bottom: 30%;
+    }
+    .carousel-item .carousel-caption h2{
+        font-family: Times New Roman;
+        font-style: italic;
+        font-size: 70px;
+        text-shadow: 3px 2px black;
+    }
+    #gallery #button{ 
+        margin: 4% 5% 0 5%;
+        background-color: transparent;
+        border-style: none;
+        width: 60%;
+    }
+}
+
+
+/* Footer */
+#footer{
+    left: 0;
+    bottom: 0;
+    height: 30%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+footer{
+    background-color: black;
+}
+
+footer a{
+    color: white;
+}
+
+
+@media screen and (max-width: 800px) {
+    .nav div.main_list {
+        height: 65px;
+        float: right;
+        position: absolute;
+        left: 40%;
+    }
+    .nav div.main_list ul li a {
+        text-decoration: none;
+        color: #fff;
+        line-height: 65px;
+        font-size: 0.7rem;
+    } 
+    #title .name{
+        font-family: Cambria;
+        font-style: italic;
+        font-size: 400%;
+        color: white;
+        margin-top: 10%;
+    }
+
+    #title .desc{
+        font-family: Cambria;
+        font-size: 110%;
+        margin-top: 5%;
+        color: white;
+    }
+    #title .logo{
+        width: 8%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top:10%;
+        min-width: 100px;
+    }
+
+    #icon ul{
+        position: absolute;
+        text-align: center;
+        top: 110%;
+        width: 100%;
+        right: 2%;
+    }
+    #aboutme .contents .text{ 
+        width: 100%;
+        font-family: Georgia;
+        font-style: bold;
+        font-size: 140%;
+        text-shadow: 2px 2px black;
+    }
+    
+    #aboutme .contents .img{ 
+        visibility: hidden;
+    }
+    #aboutme #button{ 
+        margin: 0 5% 0 5%;
+        background-color: transparent;
+        border-style: none;
+        width: 80%;
+    }
+}
+@media screen and (max-width: 1480px) {
+    .nav div.main_list {
+        height: 65px;
+        float: right;
+        position: absolute;
+        left: 60%;
+    }
+}
+@media screen and (max-width: 1250px) {
+    .nav div.main_list {
+        height: 65px;
+        float: right;
+        position: absolute;
+        left: 55%;
+    }
+    .nav div.main_list ul li a {
+        text-decoration: none;
+        color: #fff;
+        line-height: 65px;
+        font-size: 1.1rem;
+    } 
+}
+@media screen and (max-width: 1000px) {
+    .nav div.main_list {
+        height: 65px;
+        float: right;
+        position: absolute;
+        left: 50%;
+    }
+    .nav div.main_list ul li a {
+        text-decoration: none;
+        color: #fff;
+        line-height: 65px;
+        font-size: 1rem;
+    } 
+}
+
+@media screen and (max-width: 500px) {
+    .nav div.main_list {
+        height: 65px;
+        float: right;
+        position: absolute;
+        left: 30%;
+    }
+    .nav div.main_list ul li a {
+        text-decoration: none;
+        color: #fff;
+        line-height: 65px;
+        font-size: 0.7rem;
+    } 
+}

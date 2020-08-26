@@ -1,0 +1,218 @@
+body, html {
+    height: 100%;
+    background-color: #343a40 ;
+}
+
+.nav {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+}
+
+.nav div.logo {
+    float: left;
+    width: auto;
+    height: auto;
+    min-width: 50px;
+}
+
+.nav div.main_list {
+    height: 65px;
+    float: right;
+    position: absolute;
+    left: 70%;
+}
+
+.nav div.main_list ul {
+    width: 100%;
+    height: 65px;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav div.main_list ul li {
+    width: auto;
+    height: 65px;
+    padding: 0;
+    padding-right: 3rem;
+    font-family: Helvetica Neue LT Pro;
+    font-style: 83 Heavy Extended;
+}
+
+.nav div.main_list ul li a {
+    text-decoration: none;
+    color: #fff;
+    line-height: 65px;
+    font-size: 1.2rem;
+}
+
+.nav div.main_list ul li a:hover {
+    color: #00E676;
+}
+.nav div.container{
+    width: 100%;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+
+#logo{
+    width: 10%;
+}
+
+
+/* Wallpaper */
+#wallpaper { 
+    /* The image used */
+    background-image: url("../pics/Landscape/l1.jpg");
+    height: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Nav Buttons */
+#buttons ul{
+    position: absolute;
+    text-align: center;
+    top: 75%;
+    width: 100%;
+    right: 2%;
+}
+
+#buttons ul li#active{
+    border: 2px solid white;
+    border-radius: 16px;
+    padding: 2px 1% 2px 1%;
+}
+
+#buttons ul li{
+    display: inline;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
+    font-size: 300%;
+    margin: 0 3% 0 3%;
+}
+
+#buttons ul li a{
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+/* Contents CSS */
+#Display{
+    padding: 1% 0 1% 0;
+}
+/* Gallery Img */
+#Display #Gallery img{
+    transition: .5s;
+    margin: 3% 0 3% 0;
+}
+#Display #Gallery img:hover{
+    transform: scale(1.1);
+}
+
+/* Footer */
+#footer{
+    bottom: 0;
+    left: 0;
+    height: 30%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin-top: 1%;
+    text-align: center;
+}
+
+footer{
+    background-color: black;
+}
+
+footer a{
+    color: white;
+}
+@media screen and (max-width: 1480px) {
+    .nav div.main_list {
+        height: 65px;
+        float: right;
+        position: absolute;
+        left: 60%;
+    }
+}
+@media screen and (max-width: 1250px) {
+    .nav div.main_list {
+        height: 65px;
+        float: right;
+        position: absolute;
+        left: 55%;
+    }
+    .nav div.main_list ul li a {
+        text-decoration: none;
+        color: #fff;
+        line-height: 65px;
+        font-size: 1.1rem;
+    } 
+    /* Nav Buttons */
+    #buttons ul{
+        position: absolute;
+        text-align: center;
+        top: 75%;
+        width: 100%;
+        right: 2%;
+    }
+
+    #buttons ul li{
+        display: inline;
+        font-family: 'Times New Roman', Times, serif;
+        font-style: bold;
+        font-size: 200%;
+        margin: 0 3% 0 3%;
+    }
+    
+}
+@media screen and (max-width: 1000px) {
+    .nav div.main_list {
+        height: 65px;
+        float: right;
+        position: absolute;
+        left: 50%;
+    }
+    .nav div.main_list ul li a {
+        text-decoration: none;
+        color: #fff;
+        line-height: 65px;
+        font-size: 1rem;
+    } 
+}
+
+@media screen and (max-width: 500px) {
+    .nav div.main_list {
+        height: 65px;
+        float: right;
+        position: absolute;
+        left: 30%;
+    }
+    .nav div.main_list ul li a {
+        text-decoration: none;
+        color: #fff;
+        line-height: 65px;
+        font-size: 0.7rem;
+    } 
+    
+    /* Nav Buttons */
+    #buttons ul{
+        position: absolute;
+        text-align: center;
+        top: 40%;
+        width: 100%;
+        right: 2%;
+    }
+    #buttons ul li{
+        font-family: 'Times New Roman', Times, serif;
+        font-style: bold;
+        font-size: 300%;
+    }
+    
+}

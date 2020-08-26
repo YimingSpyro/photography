@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="CSS/Bootstrap/bootstrap.css">
+    <script src="js/jquery/jquery-3.4.1.js"></script>
+    <script src="JS/Bootstrap/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Css -->
+    <link rel="stylesheet" type="text/css" href="CSS/gallery.css">
+    <link rel="stylesheet" type="text/css" href="CSS/wildlife.css">
+
+    <!-- JS -->
+    <script src="js/gallery.js"></script>
+
+    <!-- Things -->
+    <link rel="shortcut icon" type="image/jpg" href="pics/2.jpg">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/5e61a4e927.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="container">
+            <div id="logo" class="logo">
+                <img src="./pics/Logo png.png" alt="Yiming.spyro" width="100%">
+            </div>
+            <div id="mainListDiv" class="main_list">
+                <ul class="navlinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="store.html">Store</a></li>
+                    <li><a href="biz.html">Biz Inquiries</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Wallpaper Background -->
+    <div id="wallpaper">
+    </div>
+
+    <nav id="buttons" class="">
+        <ul>
+            <li><a href="drawings.html">Drawings</a></li>
+            <li><a href="cityscape.html">Cityscape</a></li>
+            <li><a href="landscapes.html">Landscape</a></li>
+            <li id="active"><a href="wildlife.html">Wildlife</a></li>
+            <li><a href="portraits.html">Portraits</a></li>
+        </ul>
+    </nav>
+
+    <!-- Photo Display -->
+    <div id="Display">
+        <!-- Image Thumbnails -->
+        <div class="container">
+            <div id="Gallery" class="row">
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <img class="img-thumbnail img-responsive" src="pics/Animals/a1.jpg" alt="Singapore Zoo Monkey"
+                        title="View Photo" onclick="openModal();currentSlide(1)">
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <img class="img-thumbnail img-responsive" src="pics/Animals/a2.jpg" alt="SEA Aquarium Dolphin"
+                        title="View Photo" onclick="openModal();currentSlide(2)">
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <img class="img-thumbnail img-responsive" src="pics/Animals/a3.jpg" alt="Singapore Zoo Elephant"
+                        title="View Photo" onclick="openModal();currentSlide(3)">
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <img class="img-thumbnail img-responsive" src="pics/Animals/a4.jpg" alt="Sentosa Bird"
+                        title="View Photo" onclick="openModal();currentSlide(4)">
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <img class="img-thumbnail img-responsive" src="pics/Animals/a5.jpg" alt="Punggol Monkey"
+                        title="View Photo" onclick="openModal();currentSlide(5)">
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <img class="img-thumbnail img-responsive" src="pics/Animals/a6.jpg" alt="Singapore Zoo Penguins"
+                        title="View Photo" onclick="openModal();currentSlide(6)">
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <img class="img-thumbnail img-responsive" src="pics/Animals/a7.jpg" alt="Singapore Zoo Butterfly"
+                        title="View Photo" onclick="openModal();currentSlide(7)">
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <img class="img-thumbnail img-responsive" src="pics/Animals/a8.jpg" alt="Punggol Monkey"
+                        title="View Photo" onclick="openModal();currentSlide(8)">
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <img class="img-thumbnail img-responsive" src="pics/Animals/a9.jpg" alt="Singapore Zoo Penguins"
+                        title="View Photo" onclick="openModal();currentSlide(9)">
+                </div>
+            </div>
+        </div>
+
+        <!-- Gallery Modals -->
+        <div id="myModal" class="modal">
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+
+                <div class="mySlides">
+                    <div class="numbertext">1 / 9</div>
+                    <img src="pics/Animals/a1.jpg" width="100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">2 / 9</div>
+                    <img src="pics/Animals/a2.jpg" width="100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">3 / 9</div>
+                    <img src="pics/Animals/a3.jpg" width="100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">4 / 9</div>
+                    <img src="pics/Animals/a4.jpg" width="100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">5 / 9</div>
+                    <img src="pics/Animals/a5.jpg" width="100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">6 / 9</div>
+                    <img src="pics/Animals/a6.jpg" width="100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">7 / 9</div>
+                    <img src="pics/Animals/a7.jpg" width="100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">8 / 9</div>
+                    <img src="pics/Animals/a8.jpg" width="100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">9 / 9</div>
+                    <img src="pics/Animals/a9.jpg" width="100%">
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div id="footer">
+        <nav class="nav">
+            <div class="container">
+                <div id="mainListDiv" class="main_list">
+                    <ul class="navlinks">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="store.html">Store</a></li>
+                        <li><a href="biz.html">Biz Inquiries</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Footer -->
+    <footer class="page-footer font-small cyan darken-3">
+        <div class="text-center py-3">
+            <!--Instagram-->
+            <a class="ins-ic" href="https://www.youtube.com/watch?v=JdLCEwEFCMU">
+                <i class="fab fa-youtube fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <!-- Instagram -->
+            <a class="fb-ic" href="https://www.instagram.com/yiming.spyro/">
+                <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <!-- email -->
+            <a class="tw-ic" href="mailto:yiming.spyro@gmail.com">
+                <i class="far fa-envelope fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+        </div>
+
+    </footer>
+</body>
+
+
+
+</html>
