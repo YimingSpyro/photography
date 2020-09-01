@@ -7,10 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap -->
-    <link rel="stylesheet" type="text/css" href="CSS/Bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" type="text/css" href="CSS/Bootstrap/bootstrap.css">
     <script src="js/jquery/jquery-3.4.1.js"></script>
     <script src="JS/Bootstrap/bootstrap.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
     <!-- Css -->
     <link rel="stylesheet" type="text/css" href="CSS/Home.css">
     <link rel="stylesheet" type="text/css" href="CSS/gallery.css">
@@ -20,8 +25,7 @@
 
     <!-- Things -->
     <link rel="shortcut icon" type="image/jpg" href="pics/2.jpg">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/5e61a4e927.js" crossorigin="anonymous"></script>
 </head>
 
@@ -34,7 +38,7 @@
             <div id="mainListDiv" class="main_list">
                 <ul class="navlinks">
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="store.html">Store</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
                     <li><a href="biz.html">Biz Inquiries</a></li>
                 </ul>
             </div>
@@ -64,13 +68,13 @@
         <ul>
             <li><a href="#aboutme">ABOUT ME</a></li>
             <li><a href="#gallery">GALLERY</a></li>
-            <li><a href="store.html">PRINTS</a></li>
+            <li><a href="biz.html">CONTACT</a></li>
         </ul>
     </nav>
     <nav id="icon">
         <ul>
-            <li><a href="https://www.youtube.com/watch?v=JdLCEwEFCMU"><i class="fab fa-youtube"></i></a></li>
-            <li><a href="https://www.instagram.com/yiming.spyro/"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.youtube.com/watch?v=JdLCEwEFCMU" target="_blank"><i class="fab fa-youtube"></i></a></li>
+            <li><a href="https://www.instagram.com/yiming.spyro/" target="_blank"><i class="fab fa-instagram"></i></a></li>
             <li><a href="mailto:yiming.spyro@gmail.com"><i class="far fa-envelope"></i></a></li>
         </ul>
     </nav>
@@ -81,18 +85,20 @@
         </div>
         <div class="contents">
             <div class="text text-light">
-                <p>Hey there! My name is Li Yiming. I am 18 years old this year and I am very passionate about
-                    photography! I am currently studying in Singapore Polytechnic Diploma of Infomation Technology and
-                    is also a member of SP's Photography Club. I started teaching myself photography 3 years ago and
-                    have been working as a freelance photographer in my recreational time for a whole year now. </p>
+                <p>Hey there! My name is Li Yiming, 18 years old, and I am very passionate about photography! I am currently a year 2 student studying Diploma in IT. I started teaching myself photography 3 years ago and have been working as a freelance photographer
+                    in my recreational time. Currently I am working as a Content Creator for Sentosa. Check out some of my works below~
+                </p>
+                <p>
+                    Apart from photography, my other hobbies include gaming, jogging, and drawing. I have also included some artworks in the gallery, feel free to check'em out! :P
+                </p>
             </div>
             <div class="img">
                 <img src="./pics/Prof img 1.JPG" alt="yiming.spyro" width="100%">
             </div>
         </div>
-        <button id="button">
+        <!-- <button id="button">
             <a href="mailto:Bat Man"><img src="./pics/Contact Me Button.png" alt="contact me" width="100%"></a>
-        </button>
+        </button> -->
     </div>
 
     <div id="gallery">
@@ -106,8 +112,7 @@
                 </ol>
                 <div class="carousel-inner" role="listbox">
 
-                    <div class="carousel-item active"
-                        style="background-image: url('./pics/Gallery Cityscape Wallpaper.jpg')">
+                    <div class="carousel-item active" style="background-image: url('./pics/Gallery Cityscape Wallpaper.jpg')">
                         <div class="carousel-caption d-md-block">
                             <h2 class="display-4">Cityscape</h2>
                             <button id="button">
@@ -126,7 +131,7 @@
                             </button>
                         </div>
                     </div>
- 
+
                     <div class="carousel-item" style="background-image: url('./pics/Animals/aw.jpg')">
                         <div class="carousel-caption d-md-block">
                             <h2 class="display-4">Wild Life</h2>
@@ -158,7 +163,7 @@
             </div>
         </header>
     </div>
- 
+
     <div id="footer">
         <nav class="nav">
             <div class="container">

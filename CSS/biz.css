@@ -1,10 +1,13 @@
-body, html {
+body,
+html {
     height: 100%;
-    background-color: #343a40 ;
+    background-color: #343a40;
 }
+
 img:hover {
     transform: scale(1.1);
 }
+
 .nav {
     width: 100%;
     position: absolute;
@@ -53,14 +56,14 @@ img:hover {
 .nav div.main_list ul li a:hover {
     color: #00E676;
 }
-.nav div.container{
+
+.nav div.container {
     width: 100%;
     margin-left: 5%;
     margin-top: 1%;
 }
 
-
-#logo{
+#logo {
     width: 10%;
 }
 
@@ -68,110 +71,54 @@ img:hover {
     position: absolute;
     top: 0;
     left: 0;
-    width:100%;
+    width: 100%;
     height: 20%;
-    background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(0,0,0,1));
-    opacity:0.8;
+    background-image: linear-gradient(to top, rgba(255, 0, 0, 0), rgba(0, 0, 0, 1));
+    opacity: 0.8;
 }
 
 
 /* Wallpaper */
-#wallpaper { 
+
+#wallpaper {
     /* The image used */
-    background-image: url("../pics/About Me BG 2.jpg");
+    /* background-image: url("../pics/About Me BG 2.jpg");
     height: 150%;
     background-position: top;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
 }
 
-
-#wallpaper .contents { 
+#wallpaper .contents {
     width: 100%;
     display: inline-flex;
 }
 
-#amtitle { 
+#amtitle {
     font-family: Helvetica Neue LT Pro;
     font-style: 83 Heavy Extended;
-    font-size: 300%;
-    text-shadow: 2px 2px black; 
-    padding: 15% 0 2% 5%;
+    font-size: 150%;
+    text-shadow: 2px 2px black;
+    padding: 15% 0 2% 0;
+    text-align: center;
 }
 
-#wallpaper .contents .text{ 
-    width: 50%;
+#wallpaper .contents .text {
+    width: 100%;
     margin: 0 5% 0 5%;
     font-family: Georgia;
     font-size: 150%;
-    text-shadow: 2px 2px black; 
+    text-shadow: 2px 2px black;
     border: 2px;
     border-radius: 16px;
     padding: 2% 2% 2% 2%;
     background-color: rgba(0, 0, 0, 0.4);
 }
 
-#wallpaper .contents .img{ 
-    width: 30%;
-    margin: 0 5% 0 3%;
-}
-
-
-/* Clients */
-#cli { 
-    /* The image used */
-    background-image: url("../pics/Clients BG.jpg");
-    height: 140%;
-    background-position: center ;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#cli #amtitle { 
-    font-family: Helvetica Neue LT Pro;
-    font-style: 83 Heavy Extended;
-    font-size: 300%;
-    padding:5% 0 2% 5%;
-    text-shadow: 2px 2px black; 
-}
-#cli #main{
-    font-family: Times New Roman;
-    font-weight: bold;
-    font-size: 150%;
-    text-shadow: 2px 2px black; 
-}
-#cli #thingy{
-    font-family: Times New Roman;
-    font-weight: bold;
-    font-size: 150%;
-    text-shadow: 2px 2px black; 
-}
-#cli #desc{
-    font-family: Times New Roman;
-    font-weight: bold;
-    color: black;
-    margin-left: 3%;
-}
-#cli #contents{
-    color: white;
-    margin: 0 5% 0 5%;
-    font-family: Georgia;
-    font-size: 150%; 
-    border: 2px;
-    border-radius: 16px;
-    padding: 2% 2% 2% 2%;
-    background-color: rgba(177, 177, 177, 0.2);
-}
-
-#cli #button{ 
-    margin: 5% 5% 0 5%;
-    background-color: transparent;
-    border-style: none;
-    width: 20%;
-}
 
 /* Footer */
-#footer{
+
+#footer {
     left: 0;
     bottom: 0;
     height: 30%;
@@ -181,11 +128,11 @@ img:hover {
     text-align: center;
 }
 
-footer{
+footer {
     background-color: black;
 }
 
-footer a{
+footer a {
     color: white;
 }
 
@@ -197,6 +144,7 @@ footer a{
         left: 60%;
     }
 }
+
 @media screen and (max-width: 1250px) {
     .nav div.main_list {
         height: 65px;
@@ -209,21 +157,20 @@ footer a{
         color: #fff;
         line-height: 65px;
         font-size: 1.1rem;
-    } 
-
-#wallpaper .contents .text{ 
-    width: 50%;
-    margin: 0 5% 0 5%;
-    font-family: Georgia;
-    font-size: 100%;
-    text-shadow: 2px 2px black; 
-    border: 2px;
-    border-radius: 16px;
-    padding: 2% 2% 2% 2%;
-    background-color: rgba(0, 0, 0, 0.4);
+    }
+    #wallpaper .contents .text {
+        width: 50%;
+        margin: 0 5% 0 5%;
+        font-family: Georgia;
+        font-size: 100%;
+        text-shadow: 2px 2px black;
+        border: 2px;
+        border-radius: 16px;
+        padding: 2% 2% 2% 2%;
+        background-color: rgba(0, 0, 0, 0.4);
+    }
 }
 
-}
 @media screen and (max-width: 1000px) {
     .nav div.main_list {
         height: 65px;
@@ -236,89 +183,80 @@ footer a{
         color: #fff;
         line-height: 65px;
         font-size: 1rem;
-    } 
-    
-    #amtitle { 
+    }
+    #amtitle {
         font-family: Helvetica Neue LT Pro;
         font-style: 83 Heavy Extended;
         font-size: 150%;
-        text-shadow: 2px 2px black; 
+        text-shadow: 2px 2px black;
         padding: 15% 0 2% 5%;
     }
-    
-    #wallpaper .contents .text{ 
+    #wallpaper .contents .text {
         width: 100%;
         margin: 0 5% 0 5%;
         font-family: Georgia;
         font-size: 100%;
-        text-shadow: 2px 2px black; 
+        text-shadow: 2px 2px black;
         border: 2px;
         border-radius: 16px;
         padding: 2% 2% 2% 2%;
         background-color: rgba(0, 0, 0, 0.4);
     }
-    
-    #wallpaper .contents .img{ 
-            width: 50%;
-            margin: 0 5% 0 3%;
+    #wallpaper .contents .img {
+        width: 50%;
+        margin: 0 5% 0 3%;
     }
-    
-    
     /* Clients */
-    #cli { 
+    #cli {
         /* The image used */
         background-image: url("../pics/Clients BG.jpg");
         height: 110%;
-        background-position: center ;
+        background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
     }
-    
-    #cli #amtitle { 
+    #cli #amtitle {
         font-family: Helvetica Neue LT Pro;
         font-style: 83 Heavy Extended;
         font-size: 150%;
-        padding:5% 0 2% 5%;
-        text-shadow: 2px 2px black; 
+        padding: 5% 0 2% 5%;
+        text-shadow: 2px 2px black;
     }
-
-    #cli #main{
+    #cli #main {
         font-family: Times New Roman;
         font-weight: bold;
         font-size: 100%;
-        text-shadow: 2px 2px black; 
+        text-shadow: 2px 2px black;
     }
-    #cli #thingy{
+    #cli #thingy {
         font-family: Times New Roman;
         font-weight: bold;
         font-size: 100%;
-        text-shadow: 2px 2px black; 
+        text-shadow: 2px 2px black;
     }
-    #cli #desc{
+    #cli #desc {
         font-family: Times New Roman;
         font-weight: bold;
         color: black;
         margin-left: 3%;
     }
-    #cli #contents{
+    #cli #contents {
         color: white;
         margin: 0 5% 0 5%;
         font-family: Georgia;
-        font-size: 100%; 
+        font-size: 100%;
         border: 2px;
         border-radius: 16px;
         padding: 2% 2% 2% 2%;
         background-color: rgba(177, 177, 177, 0.2);
     }
-    
-    #cli #button{ 
+    #cli #button {
         margin: 5% 5% 0 5%;
         background-color: transparent;
         border-style: none;
         width: 20%;
     }
 }
-
 
 @media screen and (max-width: 500px) {
     .nav div.main_list {
@@ -332,20 +270,19 @@ footer a{
         color: #fff;
         line-height: 65px;
         font-size: 0.7rem;
-    } 
-    #wallpaper .contents .text{ 
+    }
+    #wallpaper .contents .text {
         width: 100%;
         font-family: Georgia;
         font-size: 100%;
-        text-shadow: 2px 2px black; 
+        text-shadow: 2px 2px black;
         border: 2px;
         border-radius: 16px;
         padding: 2% 2% 2% 2%;
         background-color: rgba(0, 0, 0, 0.4);
     }
-    #wallpaper .contents .img{ 
+    #wallpaper .contents .img {
         visibility: hidden;
         width: 0%;
     }
-
 }

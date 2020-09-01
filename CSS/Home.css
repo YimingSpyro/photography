@@ -1,6 +1,7 @@
-body, html {
+body,
+html {
     height: 100%;
-    background-color: #343a40 ;
+    background-color: #343a40;
 }
 
 img:hover {
@@ -19,7 +20,6 @@ img:hover {
     height: auto;
     min-width: 50px;
 }
-
 
 .nav div.main_list {
     height: 65px;
@@ -56,23 +56,21 @@ img:hover {
 .nav div.main_list ul li a:hover {
     color: #00E676;
 }
-.nav div.container{
+
+.nav div.container {
     width: 100%;
     margin-left: 5%;
     margin-top: 1%;
 }
 
-
-
-
-
-#logo{
+#logo {
     width: 10%;
 }
 
 
 /* Wallpaper */
-#wallpaper { 
+
+#wallpaper {
     /* The image used */
     background-image: url("../pics/HomeBG.jpg");
     height: 130%;
@@ -81,13 +79,15 @@ img:hover {
     background-size: cover;
 }
 
+
 /* Title */
-#wallpaper #title{
+
+#wallpaper #title {
     padding-top: 7%;
     text-align: center;
 }
 
-#title .name{
+#title .name {
     font-family: Cambria;
     font-style: italic;
     font-size: 600%;
@@ -95,29 +95,30 @@ img:hover {
     margin-top: 1%;
 }
 
-#title .desc{
+#title .desc {
     font-family: Cambria;
     font-size: 110%;
     color: white;
 }
-#title .logo{
+
+#title .logo {
     width: 8%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top:1%;
+    margin-top: 1%;
     min-width: 100px;
 }
 
-
-#buttons ul{
+#buttons ul {
     position: absolute;
     text-align: center;
     top: 95%;
     width: 100%;
     right: 4%;
 }
-#buttons ul li{
+
+#buttons ul li {
     display: inline;
     font-family: Georgia;
     font-style: bold;
@@ -125,19 +126,20 @@ img:hover {
     margin: 0 5% 0 5%;
 }
 
-#buttons ul li a{
+#buttons ul li a {
     color: white;
     text-shadow: 2px 2px black;
 }
 
-#icon ul{
+#icon ul {
     position: absolute;
     text-align: center;
     top: 105%;
     width: 100%;
     right: 2%;
 }
-#icon ul li{
+
+#icon ul li {
     display: inline;
     font-family: Georgia;
     font-style: bold;
@@ -145,48 +147,49 @@ img:hover {
     margin: 0 2% 0 2%;
 }
 
-#icon ul li a{
+#icon ul li a {
     color: white;
 }
 
 
-
 /* About Me */
-#aboutme { 
+
+#aboutme {
     /* The image used */
     background-image: url("../pics/About Me BG.jpg");
     height: 140%;
-    background-position: center ;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-#aboutme .contents { 
+#aboutme .contents {
     width: 100%;
     display: inline-flex;
 }
 
-#amtitle { 
+#amtitle {
     font-family: Helvetica Neue LT Pro;
     font-style: 83 Heavy Extended;
     font-size: 350%;
     padding: 10% 0 3% 5%;
 }
 
-#aboutme .contents .text{ 
+#aboutme .contents .text {
     width: 50%;
     margin: 0 5% 0 5%;
     font-family: Georgia;
     font-style: bold;
-    font-size: 200%;
-    text-shadow: 2px 2px black;
+    font-size: 150%;
+    text-shadow: 1.5px 1.5px black;
 }
 
-#aboutme .contents .img{ 
+#aboutme .contents .img {
     width: 30%;
     margin: 0 5% 0 3%;
 }
-#aboutme #button{ 
+
+#aboutme #button {
     margin: 0 5% 0 5%;
     background-color: transparent;
     border-style: none;
@@ -195,6 +198,7 @@ img:hover {
 
 
 /* Gallery Carousel */
+
 .carousel-item {
     height: 120vh;
     background: no-repeat center center scroll;
@@ -202,28 +206,27 @@ img:hover {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-  }
+}
 
-.carousel-item .carousel-caption{
+.carousel-item .carousel-caption {
     position: absolute;
     text-align: center;
     bottom: 35%;
 }
 
-.carousel-item .carousel-caption h2{
+.carousel-item .carousel-caption h2 {
     font-family: Times New Roman;
     font-style: italic;
     font-size: 700%;
     text-shadow: 3px 2px black;
 }
 
-#gallery #button{ 
+#gallery #button {
     margin: 4% 5% 0 5%;
     background-color: transparent;
     border-style: none;
     width: 35%;
 }
-
 
 @media screen and (max-width: 800px) {
     .carousel-item {
@@ -234,27 +237,28 @@ img:hover {
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-      }
-    .carousel-item .carousel-caption h2{
+    }
+    .carousel-item .carousel-caption h2 {
         font-family: Times New Roman;
         font-style: italic;
         font-size: 500%;
         text-shadow: 3px 2px black;
     }
 }
+
 @media screen and (max-width: 500px) {
-    .carousel-item .carousel-caption{
+    .carousel-item .carousel-caption {
         position: absolute;
         text-align: center;
         bottom: 30%;
     }
-    .carousel-item .carousel-caption h2{
+    .carousel-item .carousel-caption h2 {
         font-family: Times New Roman;
         font-style: italic;
         font-size: 70px;
         text-shadow: 3px 2px black;
     }
-    #gallery #button{ 
+    #gallery #button {
         margin: 4% 5% 0 5%;
         background-color: transparent;
         border-style: none;
@@ -264,7 +268,8 @@ img:hover {
 
 
 /* Footer */
-#footer{
+
+#footer {
     left: 0;
     bottom: 0;
     height: 30%;
@@ -274,14 +279,13 @@ img:hover {
     text-align: center;
 }
 
-footer{
+footer {
     background-color: black;
 }
 
-footer a{
+footer a {
     color: white;
 }
-
 
 @media screen and (max-width: 800px) {
     .nav div.main_list {
@@ -295,55 +299,53 @@ footer a{
         color: #fff;
         line-height: 65px;
         font-size: 0.7rem;
-    } 
-    #title .name{
+    }
+    #title .name {
         font-family: Cambria;
         font-style: italic;
         font-size: 400%;
         color: white;
         margin-top: 10%;
     }
-
-    #title .desc{
+    #title .desc {
         font-family: Cambria;
         font-size: 110%;
         margin-top: 5%;
         color: white;
     }
-    #title .logo{
+    #title .logo {
         width: 8%;
         display: block;
         margin-left: auto;
         margin-right: auto;
-        margin-top:10%;
+        margin-top: 10%;
         min-width: 100px;
     }
-
-    #icon ul{
+    #icon ul {
         position: absolute;
         text-align: center;
         top: 110%;
         width: 100%;
         right: 2%;
     }
-    #aboutme .contents .text{ 
+    #aboutme .contents .text {
         width: 100%;
         font-family: Georgia;
         font-style: bold;
         font-size: 140%;
         text-shadow: 2px 2px black;
     }
-    
-    #aboutme .contents .img{ 
+    #aboutme .contents .img {
         visibility: hidden;
     }
-    #aboutme #button{ 
+    #aboutme #button {
         margin: 0 5% 0 5%;
         background-color: transparent;
         border-style: none;
         width: 80%;
     }
 }
+
 @media screen and (max-width: 1480px) {
     .nav div.main_list {
         height: 65px;
@@ -352,6 +354,7 @@ footer a{
         left: 60%;
     }
 }
+
 @media screen and (max-width: 1250px) {
     .nav div.main_list {
         height: 65px;
@@ -364,8 +367,9 @@ footer a{
         color: #fff;
         line-height: 65px;
         font-size: 1.1rem;
-    } 
+    }
 }
+
 @media screen and (max-width: 1000px) {
     .nav div.main_list {
         height: 65px;
@@ -378,7 +382,7 @@ footer a{
         color: #fff;
         line-height: 65px;
         font-size: 1rem;
-    } 
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -393,5 +397,5 @@ footer a{
         color: #fff;
         line-height: 65px;
         font-size: 0.7rem;
-    } 
+    }
 }
