@@ -1,12 +1,9 @@
-
-
-body, html {
+body,
+html {
     height: 100%;
-    background-color: #343a40 ;
+    background-color: #343a40;
 }
-img:hover {
-    transform: scale(1.1);
-}
+
 .nav {
     width: 100%;
     position: absolute;
@@ -55,14 +52,14 @@ img:hover {
 .nav div.main_list ul li a:hover {
     color: #00E676;
 }
-.nav div.container{
+
+.nav div.container {
     width: 100%;
     margin-left: 5%;
     margin-top: 1%;
 }
 
-
-#logo{
+#logo {
     width: 10%;
 }
 
@@ -70,49 +67,92 @@ img:hover {
     position: absolute;
     top: 0;
     left: 0;
-    width:100%;
+    width: 100%;
     height: 20%;
-    background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(0,0,0,1));
-    opacity:0.8;
+    background-image: linear-gradient(to top, rgba(255, 0, 0, 0), rgba(0, 0, 0, 1));
+    opacity: 0.8;
 }
 
+
 /* Wallpaper */
-#wallpaper { 
+
+#wallpaper {
     /* The image used */
-    background-image: url("../pics/checkout bg.jpg");
-    height: 150%;
+    background-image: url("../pics/gallery\ page.JPG");
+    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-/* Form */
-form{
-    width: 80%;
-    margin: auto;
-    padding: 5%;
-    margin-top: 15%;
+
+
+/* Nav Buttons */
+
+#buttons ul {
+    position: absolute;
+    text-align: center;
+    top: 75%;
+    width: 100%;
+    right: 2%;
+}
+
+#buttons ul li#active {
+    border: 2px solid white;
+    border-radius: 16px;
+    padding: 2px 1% 2px 1%;
+}
+
+#buttons ul li {
+    display: inline;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
+    font-size: 300%;
+    margin: 0 3% 0 3%;
+}
+
+#buttons ul li a {
     color: white;
-    background-color:  rgba(255,255,255,0.3);
-    border-radius: 15px;
+    text-shadow: 2px 2px black;
+}
+
+
+/* Contents CSS */
+
+#Display {
+    padding: 1% 0 1% 0;
+}
+
+
+/* Gallery Img */
+
+#Display #Gallery img {
+    transition: .5s;
+    margin: 3% 0 3% 0;
+}
+
+#Display #Gallery img:hover {
+    transform: scale(1.1);
 }
 
 
 /* Footer */
-#footer{
+
+#footer {
     bottom: 0;
     left: 0;
     height: 30%;
     width: 100%;
     background-color: black;
     color: white;
+    margin-top: 1%;
     text-align: center;
 }
 
-footer{
+footer {
     background-color: black;
 }
 
-footer a{
+footer a {
     color: white;
 }
 
@@ -124,6 +164,7 @@ footer a{
         left: 60%;
     }
 }
+
 @media screen and (max-width: 1250px) {
     .nav div.main_list {
         height: 65px;
@@ -136,8 +177,24 @@ footer a{
         color: #fff;
         line-height: 65px;
         font-size: 1.1rem;
-    } 
+    }
+    /* Nav Buttons */
+    #buttons ul {
+        position: absolute;
+        text-align: center;
+        top: 75%;
+        width: 100%;
+        right: 2%;
+    }
+    #buttons ul li {
+        display: inline;
+        font-family: 'Times New Roman', Times, serif;
+        font-style: bold;
+        font-size: 200%;
+        margin: 0 3% 0 3%;
+    }
 }
+
 @media screen and (max-width: 1000px) {
     .nav div.main_list {
         height: 65px;
@@ -150,7 +207,7 @@ footer a{
         color: #fff;
         line-height: 65px;
         font-size: 1rem;
-    } 
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -165,13 +222,18 @@ footer a{
         color: #fff;
         line-height: 65px;
         font-size: 0.7rem;
-    } 
-    #wallpaper { 
-        /* The image used */
-        background-image: url("../pics/checkout bg.jpg");
-        height: 110%;
-        background-position: top;
-        background-repeat: no-repeat;
-        background-size: cover;
+    }
+    /* Nav Buttons */
+    #buttons ul {
+        position: absolute;
+        text-align: center;
+        top: 40%;
+        width: 100%;
+        right: 2%;
+    }
+    #buttons ul li {
+        font-family: 'Times New Roman', Times, serif;
+        font-style: bold;
+        font-size: 300%;
     }
 }

@@ -80,18 +80,31 @@ img:hover {
 
 /* Wallpaper */
 
-#wallpaper {
-    /* The image used */
-    /* background-image: url("../pics/About Me BG 2.jpg");
-    height: 150%;
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover; */
-}
+#wallpaper {}
 
 #wallpaper .contents {
     width: 100%;
     display: inline-flex;
+}
+
+
+/* Title */
+
+#wallpaper #title {
+    text-align: center;
+}
+
+#title .logo {
+    width: 8%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    min-width: 100px;
+}
+
+#title .logo img:hover {
+    transform: scale(1);
 }
 
 #amtitle {
@@ -105,7 +118,7 @@ img:hover {
 
 #wallpaper .contents .text {
     width: 100%;
-    margin: 0 5% 0 5%;
+    margin: 4% 5% 10% 5%;
     font-family: Georgia;
     font-size: 150%;
     text-shadow: 2px 2px black;
@@ -113,6 +126,13 @@ img:hover {
     border-radius: 16px;
     padding: 2% 2% 2% 2%;
     background-color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
 }
 
 
