@@ -4,21 +4,10 @@ html {
     background-color: #343a40;
 }
 
-img:hover {
-    transform: scale(1.1);
-}
-
 .nav {
     width: 100%;
     position: absolute;
     text-align: center;
-}
-
-.nav div.logo {
-    float: left;
-    width: auto;
-    height: auto;
-    min-width: 50px;
 }
 
 .nav div.main_list {
@@ -54,7 +43,7 @@ img:hover {
 }
 
 .nav div.main_list ul li a:hover {
-    color: #00E676;
+    color: #3b86ff;
 }
 
 .nav div.container {
@@ -63,17 +52,13 @@ img:hover {
     margin-top: 1%;
 }
 
-#logo {
-    width: 10%;
-}
-
 
 /* Wallpaper */
 
 #wallpaper {
     /* The image used */
     background-image: url("../pics/HomeBG.jpg");
-    height: 130%;
+    height: 120%;
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -99,15 +84,6 @@ img:hover {
     font-family: Cambria;
     font-size: 110%;
     color: white;
-}
-
-#title .logo {
-    width: 8%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1%;
-    min-width: 100px;
 }
 
 #buttons ul {
@@ -172,12 +148,11 @@ img:hover {
     font-family: Helvetica Neue LT Pro;
     font-style: 83 Heavy Extended;
     font-size: 350%;
-    padding: 10% 0 3% 5%;
+    padding: 10% 0 3% 0;
 }
 
 #aboutme .contents .text {
-    width: 50%;
-    margin: 0 5% 0 5%;
+    margin: 5% 10% 0 10%;
     font-family: Georgia;
     font-style: bold;
     font-size: 150%;
@@ -194,76 +169,6 @@ img:hover {
     background-color: transparent;
     border-style: none;
     width: 20%;
-}
-
-
-/* Gallery Carousel */
-
-.carousel-item {
-    height: 120vh;
-    background: no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-.carousel-item .carousel-caption {
-    position: absolute;
-    text-align: center;
-    bottom: 35%;
-}
-
-.carousel-item .carousel-caption h2 {
-    font-family: Times New Roman;
-    font-style: italic;
-    font-size: 700%;
-    text-shadow: 3px 2px black;
-}
-
-#gallery #button {
-    margin: 4% 5% 0 5%;
-    background-color: transparent;
-    border-style: none;
-    width: 35%;
-}
-
-@media screen and (max-width: 800px) {
-    .carousel-item {
-        height: 100vh;
-        min-height: 350px;
-        background: no-repeat center center scroll;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-    }
-    .carousel-item .carousel-caption h2 {
-        font-family: Times New Roman;
-        font-style: italic;
-        font-size: 500%;
-        text-shadow: 3px 2px black;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    .carousel-item .carousel-caption {
-        position: absolute;
-        text-align: center;
-        bottom: 30%;
-    }
-    .carousel-item .carousel-caption h2 {
-        font-family: Times New Roman;
-        font-style: italic;
-        font-size: 70px;
-        text-shadow: 3px 2px black;
-    }
-    #gallery #button {
-        margin: 4% 5% 0 5%;
-        background-color: transparent;
-        border-style: none;
-        width: 60%;
-    }
 }
 
 

@@ -1,0 +1,11 @@
+#img {
+    height: 90vh;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(50%);
+}
