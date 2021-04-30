@@ -251,36 +251,37 @@ footer a {
     }
 }
 
-@media screen and (max-width: 1480px) {
-    .nav div.main_list {
-        height: 65px;
-        float: right;
-        position: absolute;
-        left: 60%;
-    }
-}
 
-@media screen and (max-width: 1250px) {
-    .nav div.main_list {
-        height: 65px;
-        float: right;
-        position: absolute;
-        left: 55%;
-    }
-    .nav div.main_list ul li a {
-        text-decoration: none;
-        color: #fff;
-        line-height: 65px;
-        font-size: 1.1rem;
-    }
-}
+/* ======================== Mobile =================== */
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 480px) {
+    /* ==================== Top Bar ==================== */
+    .nav {
+        width: 100%;
+        position: absolute;
+        text-align: center;
+    }
     .nav div.main_list {
         height: 65px;
-        float: right;
+        float: left;
         position: absolute;
-        left: 50%;
+        left: 5%;
+    }
+    .nav div.main_list ul {
+        width: 100%;
+        height: 65px;
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    .nav div.main_list ul li {
+        width: auto;
+        height: 65px;
+        padding: 0;
+        padding-right: 1rem;
+        font-family: Helvetica Neue LT Pro;
+        font-style: 83 Heavy Extended;
     }
     .nav div.main_list ul li a {
         text-decoration: none;
@@ -288,19 +289,59 @@ footer a {
         line-height: 65px;
         font-size: 1rem;
     }
-}
-
-@media screen and (max-width: 500px) {
-    .nav div.main_list {
-        height: 65px;
-        float: right;
-        position: absolute;
-        left: 30%;
+    .nav div.main_list ul li a:hover {
+        color: #3b86ff;
     }
-    .nav div.main_list ul li a {
-        text-decoration: none;
-        color: #fff;
-        line-height: 65px;
-        font-size: 0.7rem;
+    .nav div.container {
+        width: 100%;
+        margin-left: 5%;
+        margin-top: 1%;
+    }
+    #navshadow {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 20%;
+        background-image: linear-gradient(to top, rgba(255, 0, 0, 0), rgba(0, 0, 0, 1));
+        opacity: 0.8;
+    }
+    /* ==================== Title ==================== */
+    #title .name {
+        font-family: Cambria;
+        font-style: italic;
+        font-size: 400%;
+        color: white;
+        margin-top: 15%;
+    }
+    #title .desc {
+        font-family: Cambria;
+        font-size: 110%;
+        color: white;
+    }
+    #buttons ul {
+        position: absolute;
+        text-align: center;
+        top: 75%;
+        width: 100%;
+        right: 4%;
+    }
+    #buttons ul li {
+        display: inline;
+        font-family: Georgia;
+        font-style: bold;
+        font-size: 200%;
+        margin: 0 5% 0 5%;
+    }
+    #buttons ul li a {
+        color: white;
+        text-shadow: 2px 2px black;
+    }
+    #icon ul {
+        position: absolute;
+        text-align: center;
+        top: 105%;
+        width: 100%;
+        right: 5%;
     }
 }

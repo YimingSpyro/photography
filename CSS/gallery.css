@@ -30,7 +30,7 @@ html {
     width: auto;
     height: 65px;
     padding: 0;
-    padding-right: 3rem;
+    padding-right: 1rem;
     font-family: Helvetica Neue LT Pro;
     font-style: 83 Heavy Extended;
 }
@@ -109,19 +109,6 @@ html {
     }
 }
 
-@media screen and (max-width: 480px) {
-    .modal-dialog {
-        margin-top: 0;
-        margin-right: 0;
-    }
-    #img {
-        width: 100%;
-        height: auto;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
-
 #imgH {
     width: 100%;
     height: auto;
@@ -153,4 +140,62 @@ footer {
 
 footer a {
     color: white;
+}
+
+
+/* ======================== Mobile =================== */
+
+@media screen and (max-width: 480px) {
+    .nav {
+        width: 100%;
+        position: absolute;
+        text-align: center;
+    }
+    .nav div.main_list {
+        height: 65px;
+        float: left;
+        position: absolute;
+        left: 5%;
+    }
+    .nav div.main_list ul {
+        width: 100%;
+        height: 65px;
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    .nav div.main_list ul li a {
+        text-decoration: none;
+        color: #fff;
+        line-height: 65px;
+        font-size: 1rem;
+    }
+    .nav div.main_list ul li a:hover {
+        color: #3b86ff;
+    }
+    .nav div.container {
+        width: 100%;
+        margin-left: 5%;
+        margin-top: 1%;
+    }
+    #navshadow {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 20%;
+        background-image: linear-gradient(to top, rgba(255, 0, 0, 0), rgba(0, 0, 0, 1));
+        opacity: 0.8;
+    }
+    .modal-dialog {
+        margin-top: 0;
+        margin-right: 0;
+    }
+    #img {
+        width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
