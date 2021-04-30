@@ -260,7 +260,7 @@ footer a {
     }
     .nav div.main_list {
         height: 65px;
-        float: left;
+        float: right;
         position: absolute;
         left: 5%;
     }
