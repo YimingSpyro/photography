@@ -240,9 +240,6 @@ footer a {
         font-size: 140%;
         text-shadow: 2px 2px black;
     }
-    #aboutme .contents .img {
-        visibility: hidden;
-    }
     #aboutme #button {
         margin: 0 5% 0 5%;
         background-color: transparent;
@@ -343,5 +340,15 @@ footer a {
         top: 105%;
         width: 100%;
         right: 5%;
+    }
+    #amtitle {
+        font-size: 200%;
+    }
+    #aboutme .contents .text {
+        width: 100%;
+        font-family: Georgia;
+        font-style: bold;
+        font-size: 100%;
+        text-shadow: 1px 1px black;
     }
 }
