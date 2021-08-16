@@ -1,0 +1,222 @@
+/* ================== Web ================ */
+
+
+/* Wallpaper */
+
+#wallpaper {
+    /* The image used */
+    background-image: url("../../pics/HomeBG.jpg");
+    height: 120%;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* Wallpaper 2 */
+
+#wallpaper2 {
+    /* The image used */
+    background-image: url("../../pics/Gallery\ Cityscape\ Wallpaper.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#wallpaper2 #title {
+    padding-top: 7%;
+    text-align: center;
+}
+
+
+/* Wallpaper 3 */
+
+#wallpaper3 {
+    /* The image used */
+    background-image: url("../../pics/14.jpg");
+    height: 150%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* Title */
+
+#wallpaper #title {
+    padding-top: 7%;
+    text-align: center;
+}
+
+#title .name {
+    font-family: Cambria;
+    font-style: italic;
+    font-size: 600%;
+    color: white;
+    margin-top: 1%;
+}
+
+#title .desc {
+    font-family: Cambria;
+    font-size: 110%;
+    color: white;
+}
+
+#buttons ul {
+    position: absolute;
+    text-align: center;
+    top: 95%;
+    width: 100%;
+    right: 4%;
+}
+
+#buttons ul li {
+    display: inline;
+    font-family: Cambria;
+    font-style: bold;
+    font-size: 200%;
+    margin: 0 5% 0 5%;
+}
+
+#buttons ul li a {
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+#buttons ul li a:hover {
+    opacity: .8;
+}
+
+#icon ul {
+    position: absolute;
+    text-align: center;
+    top: 105%;
+    width: 100%;
+    right: 2%;
+}
+
+#icon ul li {
+    display: inline;
+    font-family: Georgia;
+    font-style: bold;
+    font-size: 200%;
+    margin: 0 2% 0 2%;
+}
+
+#icon ul li a {
+    color: white;
+}
+
+#icon ul li a:hover {
+    opacity: .8;
+}
+
+
+/* ========================== Tablet ===================== */
+
+@media only screen and (max-width: 900px) {
+    /* Wallpaper */
+    #wallpaper {
+        /* The image used */
+        background-image: url("../../pics/HomeBG.jpg");
+        height: 100%;
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #wallpaper #title {
+        padding-top: 20%;
+        text-align: center;
+    }
+    /* Wallpaper 2 */
+    #wallpaper2 {
+        /* The image used */
+        background-image: url("../../pics/Gallery\ Cityscape\ Wallpaper.jpg");
+        height: 100%;
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #wallpaper2 #title {
+        padding-top: 20%;
+        text-align: center;
+    }
+    #title .name {
+        font-family: Cambria;
+        font-style: italic;
+        font-size: 500%;
+        color: white;
+        margin-top: 1%;
+    }
+    #title .desc {
+        font-family: Cambria;
+        font-size: 110%;
+        color: white;
+    }
+    /* Buttons */
+    #buttons ul {
+        position: absolute;
+        text-align: center;
+        top: 80%;
+        width: 100%;
+        right: 1%;
+    }
+    #buttons ul {
+        display: inline;
+        font-family: Georgia;
+        font-style: bold;
+        font-size: 0.8rem;
+        margin: 0 5% 0 5%;
+    }
+    #icon ul {
+        position: absolute;
+        text-align: center;
+        top: 90%;
+        width: 100%;
+        right: 2%;
+    }
+}
+
+
+/* ========================== Mobile ====================== */
+
+@media only screen and (max-width: 500px) {
+    /* Wallpaper */
+    #wallpaper {
+        /* The image used */
+        background-image: url("../../pics/HomeBG.jpg");
+        height: 100%;
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #wallpaper #title {
+        padding-top: 35%;
+        text-align: center;
+    }
+    /* Titles */
+    #title .name {
+        font-family: Cambria;
+        font-style: italic;
+        font-size: 400%;
+        color: white;
+        margin-top: 1%;
+    }
+    #title .desc {
+        font-family: Cambria;
+        font-size: 110%;
+        color: white;
+    }
+    /* Buttons */
+    #buttons ul {
+        display: none;
+    }
+    #icon ul {
+        position: absolute;
+        text-align: center;
+        top: 90%;
+        width: 100%;
+        right: 2%;
+    }
+}

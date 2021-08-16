@@ -1,8 +1,5 @@
-console.log("meow1")
-
 function openModal() {
     document.getElementById("myModal").style.display = "block";
-    console.log("meow")
 }
 
 function closeModal() {

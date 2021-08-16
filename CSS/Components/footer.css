@@ -1,0 +1,24 @@
+/* Footer */
+
+#footer {
+    left: 0;
+    bottom: 0;
+    height: 40%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+footer {
+    background-color: black;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: white;
+    opacity: .8;
+}

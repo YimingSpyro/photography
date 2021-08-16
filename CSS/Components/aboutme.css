@@ -1,0 +1,129 @@
+/* About Me */
+
+#aboutmeBG {
+    /* The image used */
+    background-image: url("../../pics/About Me BG.jpg");
+    height: 140%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#aboutme {
+    background-color: rgb(0, 0, 0, .3);
+    padding: 5%;
+    height: 100%;
+}
+
+#aboutme .contents {
+    width: 100%;
+    display: inline-flex;
+}
+
+#amtitle {
+    font-family: Georgia, serif;
+    font-size: 350%;
+    padding: 10% 0 3% 0;
+}
+
+#aboutme .contents .text {
+    margin: 5% 10% 0 10%;
+    font-family: Georgia;
+    font-style: bold;
+    font-size: 150%;
+    text-shadow: 1px 1px black;
+}
+
+#aboutme .contents .img {
+    width: 30%;
+    margin: 0 5% 0 3%;
+}
+
+#aboutme #button {
+    margin: 0 5% 0 5%;
+    background-color: transparent;
+    border-style: none;
+    width: 20%;
+}
+
+#reflink {
+    text-align: center;
+    font-family: Georgia;
+    font-size: 150%;
+}
+
+#reflink a {
+    color: white;
+}
+
+#reflink a:hover {
+    opacity: .8;
+}
+
+
+/* ========================== Tablet ===================== */
+
+@media only screen and (max-width: 900px) {
+    #aboutme {
+        background-color: rgb(0, 0, 0, .3);
+        padding: 5%;
+        height: 100%;
+    }
+    #amtitle {
+        font-family: Georgia, serif;
+        font-size: 300%;
+        padding: 10% 0 3% 0;
+    }
+    #aboutme .contents .text {
+        margin: 5% 10% 0 10%;
+        font-family: Georgia;
+        font-style: bold;
+        font-size: 140%;
+        text-shadow: 1px 1px black;
+    }
+    #reflink {
+        text-align: center;
+        font-family: Georgia;
+        font-size: 140%;
+    }
+    #reflink a {
+        color: white;
+    }
+    #reflink a:hover {
+        opacity: .8;
+    }
+}
+
+
+/* ========================== Mobile ====================== */
+
+@media only screen and (max-width: 500px) {
+    #aboutme {
+        background-color: rgb(0, 0, 0, .3);
+        padding: 5%;
+        height: 100%;
+    }
+    #amtitle {
+        font-family: Georgia, serif;
+        font-size: 250%;
+        padding: 7% 0 10% 0;
+    }
+    #aboutme .contents .text {
+        margin: 10% 10% 0 10%;
+        font-family: Georgia;
+        font-style: bold;
+        font-size: 120%;
+        text-shadow: 1px 1px black;
+    }
+    #reflink {
+        text-align: center;
+        font-family: Georgia;
+        font-size: 120%;
+    }
+    #reflink a {
+        color: white;
+    }
+    #reflink a:hover {
+        opacity: .8;
+    }
+}

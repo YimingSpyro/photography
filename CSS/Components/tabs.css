@@ -1,0 +1,26 @@
+#tabs ul {
+    text-align: center;
+    top: 95%;
+    width: 100%;
+    right: 4%;
+}
+
+#tabs ul li {
+    display: inline;
+    font-family: Cambria;
+    font-size: 200%;
+    margin: 0 5% 0 5%;
+}
+
+#tabs ul li a {
+    color: white;
+}
+
+#tabs ul li a:hover {
+    opacity: .8;
+}
+
+.active {
+    text-decoration: underline;
+    text-shadow: 1px 1px black;
+}
