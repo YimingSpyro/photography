@@ -29,3 +29,39 @@ html {
     font-size: 150%;
     text-shadow: 1px 1px black;
 }
+
+
+/* ========================== Tablet ===================== */
+
+@media only screen and (max-width: 900px) {
+    #amtitle {
+        font-family: Georgia, serif;
+        font-size: 300%;
+        padding: 15% 0 5% 0;
+    }
+    #bizinfo .contents .text {
+        margin: 5% 10% 0 10%;
+        font-family: Georgia;
+        font-style: bold;
+        font-size: 120%;
+        text-shadow: 1px 1px black;
+    }
+}
+
+
+/* ========================== Mobile ====================== */
+
+@media only screen and (max-width: 500px) {
+    #amtitle {
+        font-family: Georgia, serif;
+        font-size: 250%;
+        padding: 20% 0 8% 0;
+    }
+    #bizinfo .contents .text {
+        margin: 10% 10% 0 10%;
+        font-family: Georgia;
+        font-style: bold;
+        font-size: 100%;
+        text-shadow: 1px 1px black;
+    }
+}

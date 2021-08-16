@@ -109,10 +109,10 @@
         padding: 7% 0 10% 0;
     }
     #aboutme .contents .text {
-        margin: 10% 10% 0 10%;
+        margin: 10% 5% 0 5%;
         font-family: Georgia;
         font-style: bold;
-        font-size: 120%;
+        font-size: 100%;
         text-shadow: 1px 1px black;
     }
     #reflink {
