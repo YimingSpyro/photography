@@ -195,6 +195,10 @@
         padding-top: 35%;
         text-align: center;
     }
+    #wallpaper2 #title {
+        padding-top: 35%;
+        text-align: center;
+    }
     /* Titles */
     #title .name {
         font-family: Cambria;
