@@ -128,5 +128,3 @@ document.addEventListener('DOMContentLoaded', () => {
     exitFS();
   });
 })
-
-
