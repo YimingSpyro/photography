@@ -4,14 +4,16 @@ html {
     background-color: #343a40;
 }
 
+
 /* ================ Wallpaper ============== */
 
 #wallpaper {
     /* The image used */
     background-image: url("../pics/Gallery\ Cityscape\ Wallpaper.jpg");
     height: 100%;
+    position: absolute;
+    top: 0;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-

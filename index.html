@@ -21,7 +21,7 @@
     <link rel="stylesheet" type="text/css" href="CSS/Components/wallpaper.css">
     <link rel="stylesheet" type="text/css" href="CSS/Components/footer.css">
     <link rel="stylesheet" type="text/css" href="CSS/Components/aboutme.css">
-
+    <link rel="stylesheet" type="text/css" href="test.css">
 
     <!-- Things -->
     <link rel="shortcut icon" type="image/jpg" href="pics/2.jpg">
@@ -44,36 +44,120 @@
         </div>
     </nav>
 
-    <!-- Wallpaper Background -->
-    <div id="wallpaper">
-        <!-- Title -->
-        <div id="title">
-            <!-- name -->
-            <div class="name text-center">
-                Yiming Spyro
+    <div id="landingMain">
+        <!-- Wallpaper Background -->
+        <div id="wallpaper">
+            <!-- Title -->
+            <div id="title">
+                <!-- name -->
+                <div class="name text-center">
+                    Yiming Spyro
+                </div>
+                <!-- desc -->
+                <div class="desc text-center">
+                    Singapore based Photographer
+                </div>
             </div>
-            <!-- desc -->
-            <div class="desc text-center">
-                Singapore based Photographer
-            </div>
+
         </div>
 
+        <nav id="buttons" class="">
+            <ul>
+                <li><a href="#aboutme">ABOUT ME</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="biz.html">CONTACT</a></li>
+            </ul>
+        </nav>
+        <nav id="icon">
+            <ul>
+                <li><a href="https://www.youtube.com/channel/UCHwdt4QPUGb9eK9Qo_qdnCw" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                <li><a href="https://www.instagram.com/yiming.spyro/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="mailto:yiming.spyro@gmail.com"><i class="far fa-envelope"></i></a></li>
+            </ul>
+        </nav>
     </div>
 
-    <nav id="buttons" class="">
-        <ul>
-            <li><a href="#aboutme">ABOUT ME</a></li>
-            <li><a href="gallery.html">GALLERY</a></li>
-            <li><a href="biz.html">CONTACT</a></li>
-        </ul>
-    </nav>
-    <nav id="icon">
-        <ul>
-            <li><a href="https://www.youtube.com/channel/UCHwdt4QPUGb9eK9Qo_qdnCw" target="_blank"><i class="fab fa-youtube"></i></a></li>
-            <li><a href="https://www.instagram.com/yiming.spyro/" target="_blank"><i class="fab fa-instagram"></i></a></li>
-            <li><a href="mailto:yiming.spyro@gmail.com"><i class="far fa-envelope"></i></a></li>
-        </ul>
-    </nav>
+
+    <!-- Gallery page -->
+    <div id="galleryMain">
+        <main>
+            <ul class="slider">
+                <li class="item" style="
+                background-image: url(pics/HomeBG.jpg);
+              ">
+                    <div class="content">
+                        <h2 class="title">"Lossless Youths"</h2>
+                        <p class="description">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.
+                        </p>
+                        <a href="gallery.html"><button>Read More</button></a>
+
+                    </div>
+                </li>
+                <li class="item" style="background-image: url(pics/aw.jpg)">
+                    <div class="content">
+                        <h2 class="title">"Estrange Bond"</h2>
+                        <p class="description">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.
+                        </p>
+                        <button>Read More</button>
+                    </div>
+                </li>
+                <li class="item" style="
+                background-image: url(pics/Gallery\ Cityscape\ Wallpaper.jpg);
+              ">
+                    <div class="content">
+                        <h2 class="title">"The Gate Keeper"</h2>
+                        <p class="description">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.
+                        </p>
+                        <button>Read More</button>
+                    </div>
+                </li>
+                <li class="item" style="
+                background-image: url('pics/11.jpg');
+              ">
+                    <div class="content">
+                        <h2 class="title">"Last Trace Of Us"</h2>
+                        <p class="description">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.
+                        </p>
+                        <button>Read More</button>
+                    </div>
+                </li>
+                <li class="item" style="
+                background-image: url('pics/NEW1.JPG');
+              ">
+                    <div class="content">
+                        <h2 class="title">"Urban Decay"</h2>
+                        <p class="description">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.
+                        </p>
+                        <button>Read More</button>
+                    </div>
+                </li>
+                <li class="item" style="
+                background-image: url('pics/6.jpg');
+              ">
+                    <div class="content">
+                        <h2 class="title">"The Migration"</h2>
+                        <p class="description">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.
+                        </p>
+                        <button>Read More</button>
+                    </div>
+                </li>
+            </ul>
+            <nav class="navGallery">
+                <ion-icon class="btn prev" name="arrow-back-outline"></ion-icon>
+                <ion-icon class="btn next" name="arrow-forward-outline"></ion-icon>
+            </nav>
+        </main>
+
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <script src="test.js"></script>
+    </div>
 
     <!-- =============== About Me ============== -->
     <div id="aboutmeBG">

@@ -1,90 +1,134 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="test.css" />
+    <!-- Meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css" />
+
+    <!-- Css -->
+    <link rel="stylesheet" type="text/css" href="CSS/Components/header.css">
+    <link rel="stylesheet" type="text/css" href="CSS/Components/wallpaper.css">
+    <link rel="stylesheet" type="text/css" href="CSS/Components/footer.css">
+    <link rel="stylesheet" type="text/css" href="CSS/Components/tabs.css">
+    <link rel="stylesheet" type="text/css" href="test.css">
+
+
+
+    <!-- Things -->
+    <link rel="shortcut icon" type="image/jpg" href="pics/2.jpg">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/5e61a4e927.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
-    <main>
-        <ul class="slider">
-            <li class="item" style="
-            background-image: url(pics/HomeBG.jpg);
-          ">
-                <div class="content">
-                    <h2 class="title">"Lossless Youths"</h2>
-                    <p class="description">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.
-                    </p>
-                    <button>Read More</button>
-                </div>
-            </li>
-            <li class="item" style="background-image: url(pics/aw.jpg)">
-                <div class="content">
-                    <h2 class="title">"Estrange Bond"</h2>
-                    <p class="description">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.
-                    </p>
-                    <button>Read More</button>
-                </div>
-            </li>
-            <li class="item" style="
-            background-image: url(pics/Gallery\ Cityscape\ Wallpaper.jpg);
-          ">
-                <div class="content">
-                    <h2 class="title">"The Gate Keeper"</h2>
-                    <p class="description">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.
-                    </p>
-                    <button>Read More</button>
-                </div>
-            </li>
-            <li class="item" style="
-            background-image: url('pics/11.jpg');
-          ">
-                <div class="content">
-                    <h2 class="title">"Last Trace Of Us"</h2>
-                    <p class="description">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.
-                    </p>
-                    <button>Read More</button>
-                </div>
-            </li>
-            <li class="item" style="
-            background-image: url('pics/NEW1.JPG');
-          ">
-                <div class="content">
-                    <h2 class="title">"Urban Decay"</h2>
-                    <p class="description">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.
-                    </p>
-                    <button>Read More</button>
-                </div>
-            </li>
-            <li class="item" style="
-            background-image: url('pics/6.jpg');
-          ">
-                <div class="content">
-                    <h2 class="title">"The Migration"</h2>
-                    <p class="description">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.
-                    </p>
-                    <button>Read More</button>
-                </div>
-            </li>
-        </ul>
-        <nav class="nav">
-            <ion-icon class="btn prev" name="arrow-back-outline"></ion-icon>
-            <ion-icon class="btn next" name="arrow-forward-outline"></ion-icon>
-        </nav>
-    </main>
+    <div id="navshadow">
 
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-    <script src="test.js"></script>
+    </div>
+    <nav class="nav">
+        <div class="container">
+            <div id="mainListDiv" class="main_list">
+                <ul class="navlinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="biz.html">Biz Inquiries</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Wallpaper Background -->
+
+
+    <!-- =============== Tabs ============== -->
+
+
+    <!-- ================== Gallery ================== -->
+
+    <section class="gallery-block grid-gallery">
+        <div class="container">
+            <div class="heading">
+                <h2>Grid Gallery</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                    <a class="lightbox" href="pics/Gallery Cityscape Wallpaper.jpg">
+                        <img class="img-fluid image scale-on-hover w-100 shadow-1-strong rounded mb-4" src="pics/Gallery Cityscape Wallpaper.jpg">
+                    </a>
+                    <a class="lightbox" href="pics/4.jpg">
+                        <img class="img-fluid image scale-on-hover w-100 shadow-1-strong rounded mb-4" src="pics/4.jpg">
+                    </a>
+                </div>
+
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <a class="lightbox" href="pics/aw.jpg">
+                        <img class="img-fluid image scale-on-hover w-100 shadow-1-strong rounded mb-4" src="pics/aw.jpg">
+                    </a>
+                    <a class="lightbox" href="pics/5.jpg">
+                        <img class="img-fluid image scale-on-hover w-100 shadow-1-strong rounded mb-4" src="pics/5.jpg">
+                    </a>
+                </div>
+
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <a class="lightbox" href="pics/HomeBG.jpg">
+                        <img class="img-fluid image scale-on-hover w-100 shadow-1-strong rounded mb-4" src="pics/HomeBG.jpg">
+                    </a>
+                    <a class="lightbox" href="pics/6.jpg">
+                        <img class="img-fluid image scale-on-hover w-100 shadow-1-strong rounded mb-4" src="pics/6.jpg">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+    <script>
+        baguetteBox.run('.grid-gallery', {
+            animation: 'slideIn'
+        });
+    </script>
+
+    <!-- Gallery -->
+
+    <!-- Gallery -->
+
+    <!-- ================== Footer ================== -->
+
+    <div id="footer">
+        <nav class="nav">
+            <div class="container">
+                <div id="mainListDiv" class="main_list">
+                    <ul class="navlinks">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="biz.html">Biz Inquiries</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Footer -->
+    <footer class="page-footer font-small cyan darken-3">
+        <div class="text-center py-3">
+            <!--Instagram-->
+            <a class="ins-ic" href="https://www.youtube.com/channel/UCHwdt4QPUGb9eK9Qo_qdnCw">
+                <i class="fab fa-youtube fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <!-- Instagram -->
+            <a class="fb-ic" href="https://www.instagram.com/yiming.spyro/">
+                <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <!-- email -->
+            <a class="tw-ic" href="mailto:yiming.spyro@gmail.com">
+                <i class="far fa-envelope fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+        </div>
+
+    </footer>
+    </div>
 </body>
 
 </html>
